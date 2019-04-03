@@ -1,0 +1,70 @@
+body {
+    background: #f1f6f5;
+    color:#1b1b1b;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s;
+    animation-duration: 0.5s;
+}
+
+h2 {
+    line-height: 1.5;
+    font-size: 42px;
+}
+
+header {
+    min-height: 1000px;
+    background: url("https://www.adambbrooks.com/img/41.png");
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.herotext {
+    max-width:600px;
+    font-size: 24px;
+    letter-spacing: 2;
+}
+
+main {
+    background: #77dd77;
+}
+
+.inner {
+    max-width: 900px;
+    margin: 50px;
+    padding-top: 100px; 
+    padding-bottom: 200px;
+}
+
+footer {
+    min-height: 0px;
+    background: #f1f6f5;
+
+}
+
+.logo {
+    margin:auto;
+    max-height: 100px;
+}
+
+.contactSection {
+
+}
+
+.contactSection > a {
+    font-size: 18px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    color:#1a1a1a;
+    text-decoration: none;
+}
+
+.contactSection > a:hover {
+    color:hsla(6, 100%, 0%, 0.25);
+    text-decoration: none;
+}
