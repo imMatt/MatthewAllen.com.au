@@ -37,23 +37,55 @@ header:hover {
     
 }
 
-main:hover {
+.outer {
+    width: 100%;
+    -webkit-transition: all 0.5s; /* For Safari 3.0 to 6.0 */
+    transition: all 0.5s; /* For modern browsers */
+}
+
+.outer:hover {
+}
+
+.intro {
+    background: #e4d8c6;
+}
+
+.intro:hover {
     background: #dcc6a5;
 }
 
-main {
-    -webkit-transition: background 0.5s; /* For Safari 3.0 to 6.0 */
-    transition: background 0.5s; /* For modern browsers */
+.blogpost {
+    color:#eeeeee;
+    background: #1a1a1a;
+}
 
-    background: #e4d8c6;
-    margin-top: 25px;
+.blogpost:hover {
+    background: #222222;
+}
+
+a {
+    color: #ff5050;    
+}
+
+.blogpost > .inner > a {    
+    font-size: 3em;
+    text-align: left;
+    letter-spacing: 2;
+    float:left;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.blogpost > .inner > p {
+    text-align: left;
+    line-height: 2em;
 }
 
 .inner {
+    margin:auto;
+    margin-top: 25px;
     max-width: 900px;
-    margin: auto;
-    padding-top: 100px; 
-    padding-bottom: 100px;
+    padding:100px 50px 100px 50px;
     text-align: center;
 }
 
@@ -84,4 +116,8 @@ footer {
 .contactSection > a:hover {
     color:hsla(6, 100%, 0%, 0.25);
     text-decoration: none;
+}
+
+.history {
+    filter: grayscale(100%)
 }
